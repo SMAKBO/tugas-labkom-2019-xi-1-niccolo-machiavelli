@@ -1,4 +1,4 @@
-# tugas-labkom-2019-xi-1-niccolo-machiavelli
+# tugas-labkom-2019-xi-1-niccolo-machiavelli.github.io
 tugas-labkom-2019-xi-1-niccolo-machiavelli created by GitHub Classroom
 1. 17.63.08716 Muhamad Noviar R
 2. 17.63.08661 Gimnastiar Muhamad A
