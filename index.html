@@ -1,89 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="gaya.css">
-	<link rel="stylesheet" type="text/css" href="gaya.css">
-	<title></title>
-</head>
-<body><style>body{  background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2019-xi-1-niccolo-machiavelli/master/Old-Paper-2.jpg");}</style>
+<html lang="en">
+<title>NICCOLO MACHIAVELLI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="0.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body background="8.jpg">
 
-
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="index.html">Beranda</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="ncx.html">Keluarga <span class="sr-only">(current)</span></a>
-	      </li>
-	
-	      <li class="nav-item">
-	        <a class="nav-link" href="untitled.html">Kematian</a>
-	      <li class="nav-item">
-	        <a class="nav-link" href="quotes.html">Quotes</a>
-	     <li class="nav-item">
-	        <a class="nav-link" href="faktaunik.html">Fakta Unik</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="karya niccolo.html">Karya</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-	<!-- awal jumbotron -->
-	<div class="jumbotron text-center">
-		<h1>Niccolo Machiavelli</h1>
-		<img src="https://github.com/SMAKBO/tugas-labkom-2019-xi-1-niccolo-machiavelli/raw/master/pol.png"; width="100%"; height="100px">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="keluarga.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BIOGRAPHY</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ACHIEVMENT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PERSPECTIVE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="1.html" class="w3-bar-item w3-button">The Prince</a>
+        <a href="2.html" class="w3-bar-item w3-button">Discourses On Livy</a>
+        <a href="3.html" class="w3-bar-item w3-button">The Art of the War</a>
+      </div>
+    </div>
+  </div>
 </div>
-	<!-- akhir jumbotron -->
-	<section class="about" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					
-				</div>
-				<div class="col-sm-6">
-					<p class="text-justify" > 
 
-						<p></p>
-						<center><img src="wajah nicco depan.png" width="527" height="628"></center>
-						<p></p>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#keluarga.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BIOGRAPHY</a>
+  <a href="#karya.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ACHIEVEMENT</a>
+  <a href="#pandangan.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PERSPECTIVE</a>
+  <a href="#kami.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+</div>
 
-						<p>Niccolo Machiavelli lahir di Florence, Italia, 3 Mei 1469 dan wafat di Florence, Italia, 21 Juni 1527 pada umur 58 tahun) adalah diplomat dan politikus Italia yang juga seorang filsuf. Sebagai ahli teori, Machiavelli adalah figur utama dalam realitas teori politik, ia sangat disegani di Eropa pada masa Renaisans. </p>
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-<center><img src="https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2019-xi-1-niccolo-machiavelli/master/karya%20terbesar%20baru.png" width="589" height="343"></center>
-<p></p
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="17.jpg" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="13.jpg" style="width:100%">
+  </div>
 
-<p>Salah satu bukunya yang terkenal yaitu Il Principe (Sang Pangeran), awalnya ditulis sebagai harapan untuk memperbaiki kondisi pemerintahan di Italia Utara, kemudian menjadi buku umum dalam berpolitik pada masa itu.</p>
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+   <h2 class="w3-wide putih">𝐍𝐈𝐂𝐂𝐎𝐋𝐎 𝐌𝐀𝐂𝐇𝐈𝐀𝐕𝐄𝐋𝐋𝐈</h2>
+    <h3 <p class="w3-opacity putih"><i>" 𝒯𝒽𝑒 𝒢𝒶𝓁𝒾𝓁𝑒𝑜 𝑜𝒻 𝒫𝑜𝓁𝒾𝓉𝒾𝒸 "</i></p> </h3>
+    <p class="w3-justify putih">Niccolo Machiavelli lahir di Florence, Italia, 3 Mei 1469 dan wafat di Florence, Italia, 21 Juni 1527 (pada umur 58 tahun) adalah diplomat dan politikus Italia yang juga seorang filsuf. Sebagai ahli teori, Machiavelli adalah figur utama dalam realitas teori politik, ia merupakan sosok yang sangat disegani di Eropa pada masa Renaisans.</p> 
+    <p class ="w3-justify putih">Niccolo Machiavelli memandang kekuasaan bukanlah semata-mata untuk kepentingan diri sendiri, akan tetapi itu semua adalah untuk kehormatan dan kesejahteraan negara, itulah prinsip Machiavelli.</p>
+    <p class="w3-justify putih">Machiavelli merupakan sosok yang senang membuat kalimat-kalimat yang diingat oleh para penikmat politik. Salah satu kalimat favorit miliknya, yaitu :</p>
+    <p><center><img src="quotes.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%" "height:85%"></center></p>
+      <div class="w3-third">
+        <p></p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p></p>
+        <img src="" class="w3-round" alt="" style="width:60%">
+      </div>
+    </div>
+  </div>
 
-<p>Machiavelli adalah orang yang pertama kali mendiskusikan fenomena sosial politik tanpa merujuk pada sumber-sumber etis ataupun hukum. Inilah pendekatan pertama yang bersifat murni scientific terhadap politik. Bagi Machiavelli, politik hanya berkaitan dengan satu hal semata, yaitu memperoleh dan mempertahankan kekuasaan. Hal lainnya, seperti agama dan moralitas, yang selama ini dikaitkan dengan politik sesungguhnya tidak memiliki hubungan mendasar dengan politik, kecuali bahwa agama dan moral tersebut membantu untuk mendapat dan mempertahankan politik. </p>
+  <!-- Ticket Modal -->
+ 
+  <!-- The Contact Section -->
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
 
 
-<p>Nicolo Machiavelli memandang kekuasaan bukanlah semata-mata untuk kepentingan diri sendiri, akan tetapi itu semua adalah untuk kehormatan dan kesejahteraan negara, itulah prinsip Machiavelli.</p>
-
-
-
-
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="container"></div>
-		<p class="text-center"> copyright 2019 |<a href="https://fthyarzqg.github.io/">Fathya Rizqi Gustira</a></p>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i href="https://www.instagram.com/fthyarzq/?hl=id"class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://fthyarzqg.github.io/" target="_blank">ƒαтнуα я gυѕтιяα</a></p>
 </footer>
 
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 </body>
 </html>
