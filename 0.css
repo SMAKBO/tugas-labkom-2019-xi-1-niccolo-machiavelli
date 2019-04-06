@@ -1,14 +1,14 @@
 .putih {
-	color: white;
+    color: white;
 }
 .text {
-	text-align: justify;
+    text-align: justify;
 }
 .teks {
-	text-align: center;
+    text-align: center;
 }
 .cokelat{
-	color: coral;
+    color: coral;
 }
 
 
@@ -30,12 +30,7 @@
     opacity: 0;
     transition: 1s;
 }
-.nico {
-    color : #ffc400;
-    opacity: 0;
-    transition: 1s;
-    transform: translate(20px, 0) rotate(-15deg);
-}
+
 
 .img1 {
     display: block;
