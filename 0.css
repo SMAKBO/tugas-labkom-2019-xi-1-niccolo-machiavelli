@@ -32,16 +32,6 @@
 }
 
 
-.img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:150px;
-    border-radius: 15px;
-    filter: grayscale();
-    opacity: 0;
-    transition: 1s;
-}
 
 
 #item-1{
